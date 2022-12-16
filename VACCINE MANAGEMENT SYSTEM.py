@@ -152,14 +152,14 @@ while True:
     if ch == 1:
         write_data()
     elif ch == 2:
-        display()  # FULLY VACCINATED OR PARTIALLY VACCINATED...OR BOOK AN APPOINTMENT FOR VACCINATION...DATE DAY ...DUE DATE{3 MONTHS ACC]....VACCINATION CENTRE
+        display()  
     elif ch == 3:
-        search()  # ADD SUB OPTIONS LIKE SEARCH AS PER ID ...ADDRESS...LOCATION...TYPE OF VACCINATION....SERACH AS PER AGE GROUP.....HOW MANY HAVE BEEN VACCINATED ....
+        search() 
     elif ch == 4:
-        update()  # SPELLING MISTATE ...RECORD..
+        update()  
     elif ch == 5:
-        delete()  # DUPLICATE DELETE
-    elif ch == 6:  # update and delete not working
+        delete()  
+    elif ch == 6:  
         sys.exit()
         print("THANK YOU !! HAVE A NICE DAY.")
     else :
